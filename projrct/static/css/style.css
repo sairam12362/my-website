@@ -1,0 +1,68 @@
+body {
+    background-image: url('../images/bg-pattern.svg');
+    background-repeat: repeat;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+}
+
+.navbar-brand img {
+    height: 40px;
+    width: auto;
+}
+
+.hero-section {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.95);
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.form-control:focus {
+    background-color: #fff;
+}
+
+.btn-primary {
+    background-color: #4a90e2;
+    border-color: #4a90e2;
+}
+
+.btn-primary:hover {
+    background-color: #357abd;
+    border-color: #357abd;
+}
+
+.alert {
+    background-color: rgba(255, 255, 255, 0.95);
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.page-content {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
